@@ -48,7 +48,7 @@ TEMPLATES = [
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '_1e8&p4&!-i=2e3wx$m_@@%_(5g8i*sbl(gax9vjd!omv*p_1k'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -160,9 +160,9 @@ HAYSTACK_CONNECTIONS = {
         'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
     },
 }
-MPESA_IPN_USER = 'username'
-MPESA_IPN_PASS = 'password'
-MPESA_PAYBILL_NUMBER = '123456'
+MPESA_IPN_USER = ''
+MPESA_IPN_PASS = ''
+MPESA_PAYBILL_NUMBER = ''
 
 from oscar.defaults import *
 from django.utils.translation import ugettext_lazy as _
@@ -178,9 +178,9 @@ OSCAR_DASHBOARD_NAVIGATION.append(
                 ]
         })
 
-PAYPAL_API_USERNAME = 'emanuelmark10-facilitator_api1.gmail.com'
-PAYPAL_API_PASSWORD = 'WZEB3HKV5LEG55DZ'
-PAYPAL_API_SIGNATURE = 'AFcWxV21C7fd0v3bYYYRCpSSRl31AIVIYXWpt4.T6kjOgXsy4Y5z5L-X'
+PAYPAL_API_USERNAME = ''
+PAYPAL_API_PASSWORD = ''
+PAYPAL_API_SIGNATURE = ''
 
 
 OSCAR_INITIAL_ORDER_STATUS = 'Pending'
